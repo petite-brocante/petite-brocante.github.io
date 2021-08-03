@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://petite-brocante.github.io/sitemap.xml

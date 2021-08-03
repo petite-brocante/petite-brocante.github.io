@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  color: #555;
+  background: #ccc;
+}
+
+.for-sale-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.for-sale-list__item {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.for-sale-list__item a {
+  display: block;
+  border: 3px solid #555;
+  background: #ddd;
+  text-decoration: none;
+}
+
+.for-sale-list__item a:link,
+.for-sale-list__item a:visited,
+.for-sale-list__item a:hover,
+.for-sale-list__item a:active {
+  color: #555;
+}
+
+.for-sale-list__item a:hover,
+.for-sale-list__item a:active {
+  border-color: #4692e2;
+}
+
+.for-sale-list__item a p {
+  margin: 10px;
+}
+
+.quiet {
+  color: #999;
+}
+
+.title a:link,
+.title a:visited,
+.title a:active,
+.title a:hover {
+  text-decoration: none;
+  color: #4692e2;
+}
